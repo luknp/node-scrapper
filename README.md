@@ -1,6 +1,6 @@
 # node-scrapper
 
-Simple project for scraping websites using Puppeter bypassing Capcha and other security method.
+Simple project for scraping websites using Puppeter avoiding Capcha and other security method.
 
 ## Getting Started
 
@@ -10,7 +10,13 @@ Simple project for scraping websites using Puppeter bypassing Capcha and other s
 
 ### Run project
 
-Next run Node.js script part
+First create .env file based on .env.dev and configure it according to your needs
+
+```bash
+mv .env.dev .env
+```
+
+Next install dependencies and run scrapper
 
 ```bash
 npm install
